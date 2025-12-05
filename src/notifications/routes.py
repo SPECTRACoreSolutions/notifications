@@ -44,7 +44,7 @@ async def notify(
         channel_type=request.channel,
         message=request.message,
         priority=request.priority,
-        notification_metadata=request.metadata,
+        metadata=request.metadata,
         recipient=request.recipient,
     )
 
